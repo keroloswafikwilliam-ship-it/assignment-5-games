@@ -1,0 +1,721 @@
+@font-face {
+    font-family: days;
+    src: url(../fonts/DaysOne-Regular.ttf);
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/hero-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: days;
+
+}
+
+
+.nav-link:hover {
+    color: #74e663;
+}
+
+:root {
+    scrollbar-gutter: auto;
+}
+
+.sign:hover {
+    background-color: #74e663;
+
+}
+
+.navbar {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.bra {
+    margin-top: 30px;
+
+}
+
+.chair img {
+    margin-top: 60px;
+    border-radius: 20px;
+    border: #74e663 solid;
+}
+
+.cup {
+    padding: 20px;
+    position: absolute;
+    right: 75%;
+    top: 410px;
+
+}
+
+.our {
+    padding-top: 80px;
+    margin-bottom: 20px;
+}
+
+.view {
+    padding-left: 30px;
+    padding-right: 30px;
+    border: green solid 2px;
+}
+
+.what-we-do {
+    margin-top: 80px;
+}
+
+
+.control img {
+    width: 100%;
+    height: auto;
+}
+
+.row {
+    margin-top: 40px;
+}
+
+.lap h3 {
+    margin-top: 60px;
+}
+
+.phone h3 {
+    margin-top: 60px;
+
+}
+
+.var h3 {
+    margin-top: 60px;
+}
+
+.control img {
+    border-radius: 10px;
+}
+
+.lap-top {
+    margin-top: 60px;
+}
+
+.mobile {
+    margin-top: 40px;
+}
+
+.vaar {
+    margin-top: 40px;
+}
+
+.lap-top:hover {
+    color: black;
+}
+
+.lap {
+    border: solid #0B0E13;
+}
+
+.phone {
+    border: solid #0B0E13;
+
+}
+
+.var {
+    border: solid #0B0E13;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.design h3 {
+    margin-top: 60px;
+}
+
+.ar {
+    margin-top: 40px;
+}
+
+.ps h3 {
+    margin-top: 60px;
+}
+
+.ps4 {
+    margin-top: 40px;
+}
+
+.three-d h3 {
+    margin-top: 60px;
+}
+
+.three-dd {
+    margin-top: 40px;
+}
+
+.design {
+    border: solid #0B0E13;
+
+}
+
+.ps {
+    border: solid #0B0E13;
+
+}
+
+.three-d {
+    border: solid #0B0E13;
+
+}
+
+.hero img {
+    border-radius: 10px;
+}
+
+.logoo {
+    overflow: hidden;
+    margin-top: 60px;
+}
+
+.logo-strip {
+    animation: scroll 20s linear infinite;
+    white-space: nowrap;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+.logo-strip-revers {
+    animation: scroll 20s linear infinite;
+    margin-top: 40px;
+
+}
+
+@keyframes scroll {
+    from {
+        transform: translatex(-50%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+.logo-strip img {
+    border-radius: 15px;
+    width: 7%;
+}
+
+.logo-strip-revers img {
+    border-radius: 15px;
+    width: 7%;
+}
+
+.team h4 {
+    margin-top: 100px;
+}
+
+.ava-1 img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.ava-2 img {
+    width: 100%;
+    border-radius: 15px;
+
+}
+
+.ava-3 img {
+    width: 100%;
+    border-radius: 15px;
+
+}
+
+.ava-4 img {
+    width: 100%;
+    border-radius: 15px;
+
+}
+
+.ava-1 {
+    position: relative;
+    filter: grayscale(100%);
+}
+
+.ava-1 h4 {
+    position: absolute;
+    top: 170px;
+    left: 40px;
+}
+
+.ava-1 h5 {
+    position: absolute;
+    top: 200px;
+    left: 40px;
+}
+
+.ava-1 h6 {
+    position: absolute;
+    top: 230px;
+    left: 40px;
+}
+
+.ava-1 h1 {
+    position: absolute;
+    top: 240px;
+    left: 40px;
+}
+
+.ava-1:hover {
+    filter: grayscale(0);
+    transition: 0.3s;
+}
+
+.ava-2 {
+    position: relative;
+    filter: grayscale(100%);
+}
+
+.ava-2 h4 {
+    position: absolute;
+    top: 170px;
+    left: 40px;
+}
+
+.ava-2 h6 {
+    position: absolute;
+    top: 200px;
+    left: 40px;
+}
+
+.ava-2 h1 {
+    position: absolute;
+    top: 230px;
+    left: 40px;
+}
+
+.ava-2:hover {
+    filter: grayscale(0);
+    transition: 0.3s;
+}
+
+.ava-3 {
+    position: relative;
+    filter: grayscale(100%);
+}
+
+.ava-3 h4 {
+    position: absolute;
+    top: 170px;
+    left: 40px;
+}
+
+.ava-3 h5 {
+    position: absolute;
+    top: 200px;
+    left: 40px;
+}
+
+.ava-3 h6 {
+    position: absolute;
+    top: 230px;
+    left: 40px;
+}
+
+.ava-3 h1 {
+    position: absolute;
+    top: 260px;
+    left: 40px;
+}
+
+.ava-3:hover {
+    filter: grayscale(0);
+    transition: 0.3s;
+}
+
+.ava-4 {
+    position: relative;
+    filter: grayscale(100%);
+}
+
+.ava-4 h4 {
+    position: absolute;
+    top: 170px;
+    left: 40px;
+}
+
+.ava-4 h6 {
+    position: absolute;
+    top: 200px;
+    left: 40px;
+}
+
+.ava-4 h1 {
+    position: absolute;
+    top: 230px;
+    left: 40px;
+}
+
+.ava-4:hover {
+    filter: grayscale(0);
+    transition: 0.3s;
+}
+
+.ava-5 img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.ava-6 img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.ava-7 img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.ava-8 img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.ava-5 {
+    position: relative;
+    filter: grayscale(100%);
+}
+
+.ava-5 h4 {
+    position: absolute;
+    top: 170px;
+    left: 40px;
+}
+
+.ava-5 h5 {
+    position: absolute;
+    top: 200px;
+    left: 40px;
+}
+
+.ava-5 h6 {
+    position: absolute;
+    top: 230px;
+    left: 40px;
+}
+
+.ava-5 h1 {
+    position: absolute;
+    top: 250px;
+    left: 40px;
+}
+
+.ava-5:hover {
+    filter: grayscale(0);
+    transition: 0.3s;
+}
+
+.ava-6 {
+    position: relative;
+    filter: grayscale(100%);
+}
+
+.ava-6 h4 {
+    position: absolute;
+    top: 170px;
+    left: 40px;
+}
+
+.ava-6 h5 {
+    position: absolute;
+    top: 200px;
+    left: 40px;
+}
+
+.ava-6 h6 {
+    position: absolute;
+    top: 230px;
+    left: 40px;
+}
+
+.ava-6:hover {
+    filter: grayscale(0);
+    transition: 0.3s;
+}
+
+.ava-7 {
+    position: relative;
+    filter: grayscale(100%);
+}
+
+.ava-7 h4 {
+    position: absolute;
+    top: 170px;
+    left: 40px;
+}
+
+.ava-7 h5 {
+    position: absolute;
+    top: 200px;
+    left: 40px;
+}
+
+.ava-7 h6 {
+    position: absolute;
+    top: 230px;
+    left: 40px;
+}
+
+.ava-7 h1 {
+    position: absolute;
+    top: 250px;
+    left: 40px;
+}
+
+.ava-7:hover {
+    filter: grayscale(0);
+    transition: 0.3s;
+}
+
+.ava-8 {
+    position: relative;
+    filter: grayscale(100%);
+}
+
+.ava-8 h4 {
+    position: absolute;
+    top: 170px;
+    left: 40px;
+}
+
+.ava-8 h5 {
+    position: absolute;
+    top: 200px;
+    left: 40px;
+}
+
+.ava-8 h6 {
+    position: absolute;
+    top: 230px;
+    left: 40px;
+}
+
+.ava-8 h1 {
+    position: absolute;
+    top: 250px;
+    left: 40px;
+}
+
+.ava-8:hover {
+    filter: grayscale(0);
+    transition: 0.3s;
+}
+
+.container-2 {
+    background-color: #0E141E;
+    padding-top: 90px;
+}
+
+.loc {
+    width: 40px;
+    height: 40px;
+    padding: 30px;
+}
+
+.location {
+    padding-top: 10px;
+    padding-right: 80px;
+    padding-bottom: 30px;
+}
+
+.card-body {
+    background-color: #1E2939;
+}
+
+.card {
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+.card-body-2 {
+    background-color: #C6FD27;
+}
+
+.text h3 {
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.text h6 {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.dis {
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    padding: 25px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+}
+
+.twitt {
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    padding: 25px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+
+}
+
+.inst {
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    padding: 25px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.yout {
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    padding: 25px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.right-cards {
+    background-color: #1E2939;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.ri {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.form-control {
+    background-color: #1E2939;
+    margin-top: 30px;
+}
+
+.form-1 {
+    margin-left: 30px;
+}
+
+.form-2 {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.form-3 {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.form-4 {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.form-5 {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.form-6 h6 {
+    margin-top: 50px;
+    margin-left: 35px;
+}
+
+.form-7 {
+    background-color: #C6FD27;
+    margin-left: 100px;
+    width: fit-content;
+    margin-left: 160px;
+    border-radius: 5px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.form-7 h4 {
+    margin-top: 60px;
+}
+.footer-content p {
+    color: #78808c;
+    margin-top: 20px;
+}
+
+.footer-icons a {
+    color: #99a1af;
+    text-decoration: none;
+}
+
+.side-two-items a {
+    display: block;
+    text-decoration: none;
+    color: #78808c;
+    padding: 5px;
+    transition: color 0.3s;
+}
+
+.side-two .title h5 {
+    color: white;
+}
+
+.side-three .title h5 {
+    color: white;
+}
+
+.side-four .title h5 {
+    color: white;
+}
+
+.side-three,
+.side-four h6 {
+    color: #78808c;
+    padding: 5px;
+}
+
+.side-two-items:hover a {
+    color: #c0f11b;
+}
+
+.side-three-items:hover h6 {
+    color: #c0f11b;
+}
+
+.side-four-items:hover h6 {
+    color: #c0f11b;
+}
+
+hr {
+    color: white;
+
+}
+
+.copyright {
+    color: #78808c;
+}
+
+.last-footer-items {
+    color: #78808c;
+}
+
+.last-footer-items:hover {
+    color: #c4ff00;
+}
+.top{
+    margin-top: 90px;
+}
